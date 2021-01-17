@@ -14,8 +14,8 @@
 
         <div class=" m-4">
             <a href="{{route('discount.create')}}">
-                <button class="btn btn-outline-primary custom_box_shadow"><i class="fas fa-tag mr-2"></i>کد تخفیف جدید</button></a>
-            <a href="#"><button class="btn btn-outline-danger custom_box_shadow"><i class="far fa-trash-alt mr-2"></i>حذف گروهی</button></a>
+                <button class="btn btn-outline-primary custom_box_shadow mb-3"><i class="fas fa-tag mr-2"></i>کد تخفیف جدید</button></a>
+            <a href="#"><button class="btn btn-outline-danger custom_box_shadow mb-3"><i class="far fa-trash-alt mr-2"></i>حذف گروهی</button></a>
 
         </div>
         <!-- d-flex flex-row justify-content-between m-4 -->
@@ -29,7 +29,7 @@
         <div class="d-flex flex-row">
 
 
-            <div class="d-flex flex-row col-lg-10 p-0">
+            <div class="d-flex flex-row col-lg-10 col-md-9 col-sm-9 p-0">
 
                 <div class="form-group col-3">
                     <input type="text" class="form-control custom_box_shadow p-1" name="title_product" value="" placeholder="  براساس نام محصول ">
@@ -41,8 +41,8 @@
                         <select name="multi-column-ordering_length" aria-controls="multi-column-ordering"
                                 class="form-control custom_box_shadow">
                             <option disabled selected>براساس وضعیت کد تخفیف</option>
-                            <option>منتشر شده</option>
-                            <option>منتشر نشده</option>
+                            <option> فعال</option>
+                            <option>غیر فعال </option>
                         </select>
                     </div>
                 </div>
@@ -56,8 +56,7 @@
                                 class="form-control custom_box_shadow">
                             <option disabled selected>مرتب سازی بر اساس</option>
                             <option> جدید ترین</option>
-                            <option>پر فروش ترین</option>
-                            <option>پر بازدید ترین</option>
+                            <option> قدیمی ترین</option>
                         </select>
                     </div>
                 </div>
@@ -114,11 +113,11 @@
                 <td>10</td>
                 <td>صفحه کلاج</td>
                 <td>D1234</td>
-                <td><span class="badge badge-success">منتشر شده</span></td>
+                <td><span class="badge badge-success"> فعال</span></td>
                 <td><span class="badge badge-primary">معتبر</span></td>
                 <td class="text-center">
                     <div class="d-flex flex-row justify-content-center">
-                        <a href="">
+                        <a href="{{route('discount.edit',1)}}">
                             <button class="btn btn-warning " title="ویرایش">ویرایش</button>
                         </a>
                         <button class="btn btn-danger warning confirm" title="حذف">حذف</button>
@@ -138,7 +137,7 @@
                 <td>15</td>
                 <td> کمک فنر</td>
                 <td>K4567</td>
-                <td><span class="badge badge-success">منتشر شده</span></td>
+                <td><span class="badge badge-success"> فعال</span></td>
                 <td><span class="badge badge-danger">منقضی</span></td>
                 <td class="text-center">
                     <div class="d-flex flex-row justify-content-center">
@@ -162,7 +161,7 @@
                 <td>30</td>
                 <td>روغن موتور </td>
                 <td>R9632</td>
-                <td><span class="badge badge-warning">منتشر نشده</span></td>
+                <td><span class="badge badge-danger"> غیر فعال</span></td>
                 <td><span class="badge badge-danger">منقضی</span></td>
                 <td class="text-center">
                     <div class="d-flex flex-row justify-content-center">
@@ -186,7 +185,7 @@
                 <td>50</td>
                 <td>هد لایت  </td>
                 <td>H7896</td>
-                <td><span class="badge badge-success">منتشر شده</span></td>
+                <td><span class="badge badge-success"> فعال</span></td>
                 <td><span class="badge badge-primary">معتبر</span></td>
                 <td class="text-center">
                     <div class="d-flex flex-row justify-content-center">

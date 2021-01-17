@@ -16,12 +16,12 @@
 
         </div>
 
-        <div class=" m-4">
-            <a href="#"><button class="btn btn-outline-primary custom_box_shadow"><i class="far fa-envelope mr-2"></i>ارسال ایمیل </button></a>
+        <div class=" m-4 ">
+            <a href="#"><button class="btn btn-outline-primary custom_box_shadow mb-3"><i class="far fa-envelope mr-2"></i>ارسال ایمیل </button></a>
 
-            <a href="#"><button class="btn btn-outline-primary custom_box_shadow"><i class="far fa-comment-alt mr-2"></i> ارسال پیامک</button></a>
+            <a href="#"><button class="btn btn-outline-primary custom_box_shadow mb-3"><i class="far fa-comment-alt mr-2"></i> ارسال پیامک</button></a>
 
-            <a href="#"><button class="btn btn-outline-danger custom_box_shadow"><i class="far fa-trash-alt mr-2"></i>حذف گروهی</button></a>
+            <a href="#"><button class="btn btn-outline-danger custom_box_shadow mb-3"><i class="far fa-trash-alt mr-2"></i>حذف گروهی</button></a>
 
         </div>
         <!-- d-flex flex-row justify-content-between m-4 -->
@@ -32,7 +32,7 @@
         <div class="d-flex flex-row">
 
 
-            <div class="d-flex flex-row col-lg-10 p-0">
+            <div class="d-flex flex-row col-lg-10 col-md-9 col-sm-9 p-0">
 
                 <div class="form-group col-3">
                     <input type="text" class="form-control custom_box_shadow p-1" name="title_product" value="" placeholder="  براساس نام کاربر ">

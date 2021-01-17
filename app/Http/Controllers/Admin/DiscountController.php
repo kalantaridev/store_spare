@@ -58,7 +58,7 @@ class DiscountController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('Admin.Discount.edit');
     }
 
     /**

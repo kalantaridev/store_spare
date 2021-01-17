@@ -28,8 +28,7 @@
         <p class="f13 ml-4 mb-4"><i class="fas fa-search mr-2"></i>جستجوی سریع</p>
         <div class="d-flex flex-row">
 
-
-        <div class="d-flex flex-row col-lg-10 p-0">
+            <div class="d-flex flex-row col-lg-10 col-md-9 col-sm-9 p-0">
 
             <div class="form-group col-3">
                 <input type="text" class="form-control custom_box_shadow p-1" name="title_product" value="" placeholder="  براساس نام محصول ">
@@ -65,7 +64,7 @@
 
             <div class="d-flex flex-row ml-4">
                 <!-- Rounded switch -->
-                <p style="line-height: 50px">فقط کالاهای موجود</p>
+                <p style="margin-top:13px">فقط کالاهای موجود</p>
                 <label class="switch ml-3 mt-2">
                     <input type="checkbox">
                     <span class="slider round"></span>

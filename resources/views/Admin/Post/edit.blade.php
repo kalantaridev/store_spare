@@ -8,7 +8,8 @@
 @section('content')
 
     <p class="f20 m-3"> ویرایش محصول </p>
-    <div class='col-lg-7 col-md-8 col-sm-8 m-5'>
+    <div class="col-10 mx-auto">
+    <div class='col-lg-8 col-md-12 col-sm-12'>
 
         <div class="form-group">
             <label for="post_title"> عنوان محصول</label>
@@ -76,6 +77,8 @@
 
     </div>
     <!-- col-lg-8 -->
+    </div>
+
 @section('select2_js')
     <script src="/Admin/plugins/select2/select2.min.js"></script>
     <script src="/Admin/plugins/select2/custom-select2.js"></script>

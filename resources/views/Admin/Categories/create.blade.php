@@ -1,4 +1,5 @@
 @extends('Admin.Layout.index')
 @section('content')
-    ffff
+    <div class="col-10 mx-auto">
+    </div>
 @endsection

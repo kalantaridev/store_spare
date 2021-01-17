@@ -8,6 +8,10 @@
 .f13{
     font-size: 13pt;
 }
+.font_black{
+    color: black!important;
+}
+
 
 .custom_box_shadow{
    box-shadow:  0px 5px 20px 0 rgba(0, 0, 0, 0.2);

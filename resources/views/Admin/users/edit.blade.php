@@ -2,20 +2,21 @@
 @section('content')
 
     <p class="f20 m-3">  ویرایش کاربر</p>
-    <div class='col-lg-7 col-md-8 col-sm-8 m-5'>
+    <div class="col-10 mx-auto">
+    <div class='col-lg-8 col-md-12 col-sm-12'>
 
         <div class="form-group mt-4">
-            <img src="/Admin/user_image/user3.jpg" class="img-fluid rounded" width="250" id="user_img">
+            <img src="/Admin/user_image/user3.jpg" class="img-fluid rounded" width="175" id="user_img">
         </div>
 
         <div class="form-group mt-4">
-            <label for="user_name">نام کاربر</label>
+            <label for="user_name"  class="font_black">نام کاربر</label>
             <input type="text" class="form-control" id="user_name" value="" placeholder=" نام کاربر" readonly>
         </div>
 
 
 
-            <label for="role_user"> نقش کاربر</label>
+            <label for="role_user"  class="font_black"> نقش کاربر</label>
             <select class="form-control" multiple>
                 <option value="">مدیر</option>
                 <option value="">نویسنده</option>
@@ -29,5 +30,5 @@
 
     </div>
 {{--    col-lg-8--}}
-
+    </div>
 @endsection

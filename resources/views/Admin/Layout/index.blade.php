@@ -589,14 +589,9 @@
 
     <!--  BEGIN CONTENT AREA  -->
     <div id="content" class="main-content bg_w">
-        <div class="layout-px-spacing">
+<div class="container col-12">
             @yield('content')
-            <div class="row layout-top-spacing">
-
-
-            </div>
-
-        </div>
+</div>
         <div class="footer-wrapper">
             <div class="footer-section f-section-1">
                 <p class=""> © کپی رایت</p>
